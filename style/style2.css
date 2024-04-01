@@ -1251,6 +1251,8 @@ margin-top: 20px;
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 30px;
     overflow: hidden;
   }

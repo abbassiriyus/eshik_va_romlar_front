@@ -2007,6 +2007,9 @@ margin: auto;
     width: 395px;
     margin: 1rem;
 }
+.other_cards img{
+    border-radius: 30px;
+}
 
 .other_cards h3 {
     font-size: 24px;
@@ -2078,11 +2081,11 @@ margin: auto;
 
 .other_main {
     width: 100%;
-    max-width: 1692px;
+    /* max-width: 1692px; */
     border-radius: 20px;
     margin: auto;
-    margin-top: 5%;
-    padding: 20px 60px;
+    /* margin-top: 5%; */
+    /* padding: 20px 60px; */
 }
 
 .head_text {
@@ -3000,11 +3003,11 @@ margin: auto;
 @media (max-width: 1250px) {
     .other_main {
         width: 100%;
-        max-width: 1692px;
+        /* max-width: 1692px; */
         border-radius: 20px;
         margin: auto;
-        margin-top: 5%;
-        padding: 20px 25px;
+        /* margin-top: 5%; */
+        /* padding: 20px 25px; */
     }
 
     .other_right2 {
@@ -3135,8 +3138,14 @@ margin: auto;
 }
 
 @media (max-width: 450px) {
+    .other_cards{
+        text-align: center;
+    }
     .other_cards img {
         width: 100%;
+        border-radius: 60px;
+        max-width: 200px;
+        text-align:center;
     }
 
     .other_left {
@@ -3145,9 +3154,9 @@ margin: auto;
     }
 
     .other_left h1 {
-        font-size: 30px;
+        font-size: 23px;
         font-weight: 700;
-        line-height: 36px;
+        line-height: 28px;
         margin-bottom: 2rem;
         text-align: center;
     }
